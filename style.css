@@ -1,0 +1,28 @@
+body{
+    margin: 1em;
+}
+
+.button {
+    background-color: navy;
+    color: white;
+    width: 25em;
+    height: 3em;
+    text-align: left;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+}
+
+form > button > span {
+    float: right;
+    background-color: blue;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.button:focus {
+    background-color: gray;
+}
